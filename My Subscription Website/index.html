@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Deals</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <!-- Background Image -->
+        <div class="background-container">
+            <img src="Images/background.jpg" 
+                 alt="Site background" 
+                 class="background-image">
+            <div class="background-overlay"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="content-container">
+            <!-- Header Text -->
+            <header class="header">
+                <h1 class="main-title">
+                    Paying too much for subscriptions?
+                </h1>
+                <p class="subtitle">
+                    HERE IS A CHEAP ALTERNATIVE
+                </p>
+            </header>
+
+            <!-- Subscription Carousel -->
+            <main class="swiper">
+                <div class="swiper-wrapper">
+                    
+                    <!-- iCloud Card -->
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-content">
+                                <h2 class="card-title">iCloud+ Storage</h2>
+                                <div class="card-icon-container">
+                                    <svg class="icon-icloud" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4C9.11 4 6.6 5.64 5.35 8.04C2.34 8.36 0 10.91 0 14C0 17.31 2.69 20 6 20H19C21.76 20 24 17.76 24 15C24 12.36 21.95 10.22 19.35 10.04Z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <a href="#" class="card-button button-icloud" data-deal="icloud">
+                                <span>BUY NOW</span>
+                                <span>&gt;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Apple Music Card -->
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-content">
+                                <h2 class="card-title">Apple Music</h2>
+                                <div class="card-icon-container">
+                                    <img src="Images/Apple logo.jpg" alt="Apple Music Logo" class="apple-music-logo" />
+                                </div>
+                            </div>
+                            <a href="#" class="card-button button-applemusic" data-deal="applemusic">
+                                <span>BUY NOW</span>
+                                <span>&gt;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Netflix Card -->
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="featured-banner">Featured</div>
+                             <div class="card-content">
+                                <h2 class="card-title">Netflix Premium</h2>
+                                <div class="card-icon-container">
+                                    <p class="netflix-logo">NETFLIX</p>
+                                </div>
+                            </div>
+                            <a href="#" class="card-button button-netflix" data-deal="netflix">
+                                <span>BUY NOW</span>
+                                <span>&gt;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Spotify Card -->
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-content">
+                                <h2 class="card-title">Spotify Premium</h2>
+                                <div class="card-icon-container">
+                                    <svg class="icon-spotify" viewBox="0 0 168 168" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="m83.996 0.277c-46.249 0-83.743 37.493-83.743 83.742 0 46.251 37.494 83.741 83.743 83.741 46.254 0 83.744-37.49 83.744-83.741 0-46.246-37.49-83.737-83.745-83.737l0.001-0.005zm38.404 120.78c-1.523 2.46-4.72 3.243-7.18 1.723-19.662-12.018-44.414-14.736-73.564-8.073-2.809 0.643-5.609-1.12-6.249-3.933-0.643-2.809 1.12-5.609 3.933-6.249 31.4-7.282 58.74-4.272 80.223 9.434 2.46 1.52 3.24 4.72 1.72 7.18l-0.12-0.065zm9.43-22.527c-1.89 3.075-5.91 4.046-8.98 2.153-22.51-13.839-56.823-17.846-83.448-9.764-3.453 1.043-7.1-0.903-8.148-4.35-1.04-3.453 0.907-7.093 4.354-8.143 30.413-9.228 68.222-4.758 94.072 11.127 3.07 1.89 4.05 5.91 2.15 8.98l-0.002-0.001zm0.14-23.728c-26.46-15.92-70.14-17.53-97.98-9.68-4.138 1.15-8.48-1.12-9.62-5.25-1.15-4.14 1.12-8.48 5.25-9.62 31.1-8.72 79.6-6.83 110.16 11.08 3.57 2.12 4.76 6.83 2.63 10.4-2.12 3.56-6.83 4.76-10.4 2.63l-0.04-0.04z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <a href="#" class="card-button button-spotify" data-deal="spotify">
+                                <span>BUY NOW</span>
+                                <span>&gt;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </main>
+
+            <!-- Footer -->
+            <footer class="site-footer">
+                <div class="social-icons">
+                    <a href="https://x.com/h0peson" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Twitter">
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+                    </a>
+                    <a href="https://www.instagram.com/agent47splug/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.85s.012-3.584.07-4.85c.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                </div>
+                <p>&copy; 2025 DealHub. All Rights Reserved.</p>
+            </footer>
+
+            <!-- Modal Structure -->
+            <div id="deal-modal" class="modal-overlay">
+                <div class="modal-content">
+                    <button class="modal-close">&times;</button>
+                    <h2 id="modal-title" class="modal-title">Deal Title</h2>
+                    <p id="modal-description" class="modal-description">
+                        Detailed information about the subscription deal will appear here.
+                    </p>
+                    <div class="modal-price-container">
+                        <span id="modal-price" class="modal-price">$9.99</span>
+                        <span class="modal-price-period">/ month</span>
+                    </div>
+                    <a href="#" id="modal-checkout-button" class="card-button">Proceed to Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Chatbot -->
+    <div id="chatbot-container" class="chatbot-container">
+        <div class="chatbot-header">
+            <h3>DealBot Assistant</h3>
+            <button id="chatbot-close" class="chatbot-close">&times;</button>
+        </div>
+        <div id="chatbot-messages" class="chatbot-messages">
+            <div class="bot-message">Hello! How can I help you with our subscription deals today?</div>
+        </div>
+        <div class="chatbot-input-container">
+            <input type="text" id="chatbot-input" placeholder="Ask a question...">
+            <button id="chatbot-send">Send</button>
+        </div>
+    </div>
+    <button id="chatbot-toggle" class="chatbot-toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9.47 13.13c-.23.23-.53.35-.85.35s-.62-.12-.85-.35c-.47-.47-.47-1.23 0-1.7.47-.47 1.23-.47 1.7 0 .47.47.47 1.23 0 1.7zm5.06 0c-.23.23-.53.35-.85.35s-.62-.12-.85-.35c-.47-.47-.47-1.23 0-1.7.47-.47 1.23-.47 1.7 0 .47.47.47 1.23 0 1.7zm2.3-4.13c-.65 0-1.18-.53-1.18-1.18s.53-1.18 1.18-1.18 1.18.53 1.18 1.18-.53 1.18-1.18 1.18zm-9.5 0c-.65 0-1.18-.53-1.18-1.18s.53-1.18 1.18-1.18 1.18.53 1.18 1.18-.53 1.18-1.18 1.18z"></path></svg>
+    </button>
+
+    <!-- Swiper.js JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="css/script.js"></script>
+</body>
+</html>
